@@ -242,6 +242,4 @@ MIT License - Use it, modify it, share it!
 
 ---
 
-**Pro Tip**: After setting this up, you'll sleep better knowing your code is always backed up. Set it and forget it! 
-
 **Note**: This is designed for development/personal projects. For production code, use proper CI/CD pipelines with code review processes.
