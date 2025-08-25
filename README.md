@@ -35,7 +35,7 @@ This script runs quietly in the background (via cron) and ensures your work is a
 2025-01-15 23:45:19 - ✓ api-server: No changes
 ```
 
-Your work from today is now safely backed up on GitHub! 🎉
+Your work from today is now safely backed up on GitHub! 
 
 ## Requirements
 
@@ -185,11 +185,11 @@ grep CRON /var/log/syslog
 
 ## Security & Safety
 
-- ✅ **Read-only on existing repos**: Never creates or deletes repositories
-- ✅ **Uses existing credentials**: Leverages your configured SSH keys/tokens  
-- ✅ **Whitelist protection**: Only touches approved repositories
-- ✅ **Local commits first**: Always commits locally, even if push fails
-- ✅ **No sensitive data**: Logs only contain timestamps and repo names
+- **Read-only on existing repos**: Never creates or deletes repositories
+- **Uses existing credentials**: Leverages your configured SSH keys/tokens  
+- **Whitelist protection**: Only touches approved repositories
+- **Local commits first**: Always commits locally, even if push fails
+- **No sensitive data**: Logs only contain timestamps and repo names
 
 ## Advanced Configuration
 
